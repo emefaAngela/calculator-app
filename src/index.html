@@ -4,9 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="input">
+            <div class="content">
+                <p class="p-text">Bill</p>
+                <div class="bar">
+                    <span>$</span>
+                    <span><input type="text" id="bill-amount"></span>
+                </div>
+            </div>
+
+            <div class="content">
+                <p class="p-text">Bill</p>
+                <div class="column-content">
+                    <div class="row-content ">
+                        <div class="row-1 row text-white">
+                            <span>5%</span>
+                        </div>
+                        <div class="row-1 row text-white">
+                            <span>10%</span>
+                        </div>
+                        <div class="row-1 row-15 ">
+                            <span>15%</span>
+                        </div>
+                    </div>
+
+                    <div class="row-content text-white">
+                        <div class="row-1 row">
+                            <span>25%</span>
+                        </div>
+                        <div class="row-1 row text-white">
+                            <span>50%</span>
+                        </div>
+                        <div class="row-1 row">
+                            <span><input type="text" id="custom_tip" placeholder="Custom"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content">
+                <p class="p-text">Number of People</p>
+                <div class="bar">
+                    <span>$</span>
+                    <span><input type="text" placeholder="0" id="no_of_people"></span>
+                </div>
+            </div>
+        </div>
+        <div class="output">
+            <div class="output-content">
+                <div class="output-content1">
+                    <div class="text-white">Tip Amount</div>
+                    <div class="text-lightcyan">/ person</div>
+                </div>
+                <div class="output-content2 text-cyan">
+                    $34.42
+                </div>
+            </div>
+
+            <div class="output-content">
+                <div class="output-content1">
+                    <div class="text-white">Total</div>
+                    <div class="text-lightcyan">/ person</div>
+                </div>
+                <div class="output-content2 text-cyan">
+                    $34.42
+                </div>
+            </div>
+            <div class="reset">RESET</div>
+        </div>
+    </div>
 </body>
 </html>
