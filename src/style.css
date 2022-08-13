@@ -103,3 +103,9 @@ body{
     padding: 5px;
     border-radius: 5px;
 }
+input{
+    border: none;
+    background-color:hsl(189, 41%, 97%) ;
+    width: 20px;
+    color: hsl(183, 100%, 15%);
+}
