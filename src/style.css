@@ -11,8 +11,9 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
     margin-right: 20%;
-    margin-left: 20%;
+    margin-left: 25%;
     margin-top: 10%;
     width: 50%;
     height: 300px;
@@ -134,6 +135,11 @@ body{
     padding-top: 3px;
     /* padding: 10px 30px 10px 30px; */
     margin: 0px 0px 10px 10px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: -70px;
 }
 .bar{
     display: flex;
